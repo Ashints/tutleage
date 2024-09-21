@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between the buttons */
+    margin-bottom: 50px; /* Space below the row */
+    width: 100%;
+    max-width: 600px; /* Optional: limit width of button row */
+}
+
+.icon-button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:grey;
+    color: white;
+    border: bold;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 40px 100px;
+    position: relative;
+    max-width: 200px;
+    flex: 1;
+    margin-right: 40px;
+}
+
+.icon-button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    color: white;
+    border: bold;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 40px;
+    position: relative;
+    max-width: 200px;
+    flex: 1;
+    margin-left: 210px;
+    margin-top: -130px;
+}
+
+.icon-button3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:grey;
+    color: white;
+    border: bold;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 40px;
+    position: relative;
+    max-width: 200px;
+    flex: 1;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+.text {
+    margin-left: 10px;
+}
+
+.large-button {
+    width: 80%;
+    height: 150px;
+    font-size: 24px;
+}
+
+.icon-button:hover {
+    background-color: #0056b3;
+}

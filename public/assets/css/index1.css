@@ -1,0 +1,35 @@
+.form-control{
+    width:300px;
+    height:30px;
+
+    border-radius:10px;
+    padding: 5px 15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+
+}
+.container{
+    background-image: url('/assets/css/image/1652470203028.png');
+    
+    left:50px;
+    display:flex; 
+    min-height:100vh;
+    justify-content: center;
+    background-size: cover;
+}
+.submit{
+    background-color:blue;
+    color:white;
+    border-radius: 6px;;
+
+}
+.abc{
+    background: transparent;
+}
+
+
+
+
